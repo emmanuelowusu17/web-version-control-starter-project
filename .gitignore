@@ -4,4 +4,9 @@
 # - you want to keep sensitive, local, or unnecessary files out of your repository
 # - sharing a project with others and want to avoid cluttering Git history
 # - working with build tools or editors that create extra files
-
+#macOS systems files
+.DS_Store
+#windows systems files 
+Thumbs.db
+#VS Code local settings
+.vscode/
