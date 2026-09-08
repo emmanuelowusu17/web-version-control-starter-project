@@ -15,3 +15,25 @@ for (let skill of skills) {
     listItem.textContent = skill;
     document.getElementById("skillsList").appendChild(listItem);
 }
+let students = [
+    {
+        name: "Emmanuel",
+        major: "Computer Science"
+    },
+    {
+        name: "John",
+        major: "Biology"
+    },
+    {
+        name: "Sarah",
+        major: "Business"
+    }
+];
+
+for (let student of students) {
+    let listItem = document.createElement("li");
+
+    listItem.textContent = student.name + " - " + student.major;
+
+    document.getElementById("studentList").appendChild(listItem);
+}
